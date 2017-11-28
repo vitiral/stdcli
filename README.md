@@ -1,12 +1,10 @@
-# stdcli: rust meta-library for command line interfaces
+# stdcli: batteries included for rust scripts
 
-This is a rust meta-library. It simply imports multiple good rust libraries
-for writing clis and re-exports them.
+This is a rust meta-library for including relevant libraries for cli applications. It's
+main use case is to be used with [`cargo-script`](https://crates.io/crates/cargo-script).
 
-This is alpha: no code is yet written. I am just compiling a list of crates
-to include
-
-
+It is in the same spirit as the [`stdx`](https://github.com/brson/stdx) but serves a
+specific instead of general use case.
 
 - [cargo-script](https://crates.io/crates/cargo-script): this wouldnt be in `stdcli`, but is an important one to know! Quickly write and run cli scripts with crate caching.
 - [structopt_derive](https://crates.io/crates/structopt_derive): you already mentioned this one, it's great.
