@@ -1,7 +1,14 @@
 [package]
-authors = ["Garrett Berg <googberg@gmail.com>"]
+authors = ["Garrett Berg <vitiral@gmail.com>"]
 name = "stdcli"
 version = "0.1.0"
+keywords = [
+    "lib",
+    "cli",
+    "meta",
+]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/vitiral/stdcli"
 
 [dependencies]
 chrono = "0.4.0"
